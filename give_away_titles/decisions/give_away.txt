@@ -1,0 +1,40 @@
+decisions = {
+	give_away_titles = {
+	 	is_high_prio = yes
+	 	ai = no
+
+		potential = {
+			over_max_demesne_size = 1
+			is_ruler = yes
+			OR = {
+				job_chancellor = {
+					ai = no
+				}
+				ai = no
+			}
+		}
+		allow = {
+			over_max_demesne_size = 1
+			custom_tooltip = {
+				text = HAS_CHANCELLOR
+				hidden_tooltip = {
+					job_chancellor = {
+						is_alive = yes
+					}
+				}
+			}
+		}
+		effect = {
+			job_chancellor = {
+				character_event = { id = 108010 }
+				character_event = { id = 108005 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_give_away_titles"
+		texturefile = "gfx\\interface\\give_away_image.dds"
+	}
+}
