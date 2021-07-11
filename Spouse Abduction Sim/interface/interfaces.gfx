@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_toggle_marriage_options_on"
+		texturefile = "gfx\\interface\\marriage_icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_toggle_marriage_options_off"
+		texturefile = "gfx\\interface\\marriage_icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_marry_ruler"
+		texturefile = "gfx\\interface\\marriage_icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_marry_courtiers"
+		texturefile = "gfx\\interface\\marriage_icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_marry_kinsperson"
+		texturefile = "gfx\\interface\\marriage_icon.dds"
+	}
+}

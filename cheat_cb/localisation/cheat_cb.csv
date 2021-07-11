@@ -1,0 +1,22 @@
+CB_NAME_INVASION_;Invasion of [Title.GetName];;;;;;;;;;;;;X
+WAR_NAME_INVASION_;$FIRST_ADJ$ Invasion of [Title.GetName];;;;;;;;;;;;;X
+cheat_invasion_duke_desc;Declare a full scale invasion on whomever you choose!;;;;;;;;;;;;;X
+cheat_invasion_emperor_desc;Declare a full scale invasion on whomever you choose!;;;;;;;;;;;;;X
+cheat_invasion_king_desc;Declare a full scale invasion on whomever you choose!;;;;;;;;;;;;;X
+
+#--------GAME RULE LOCALISATION---------------------------------------
+ 
+
+
+
+
+#---------------EVENT AND DECISION LOCALISATION---------------------------------------
+change_cb_targeting;Change Casus Belli Targeting;;;;;;;;;;;;;X
+change_cb_targeting_desc;Change what provinces your Invasion casus belli targets.;;;;;;;;;;;;;X
+
+RECENTLY_CHANGED_TARGETING_RULES;§Y1§! day has passed since last change;;;;;;;;;;;;;X
+EVTDESCCHEATCB.1;Change your Invasion targeting!;;;;;;;;;;;;;X
+EVTOPTCHEATCB_2;Duchy;;;;;;;;;;;;;X
+EVTOPTCHEATCB_3;Kingdom;;;;;;;;;;;;;X
+EVTOPTCHEATCB_4;Empire;;;;;;;;;;;;;X
+EVTOPTCHEATCB_5;Off;;;;;;;;;;;;;X

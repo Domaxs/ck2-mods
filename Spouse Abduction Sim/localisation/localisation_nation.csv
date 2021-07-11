@@ -1,0 +1,14 @@
+toggle_marriage_options_on;Toggle marriage options;
+toggle_marriage_options_on_desc;Toggle normal and targeted decisions for auto marriage.;
+
+
+marry_ruler;----Marry Ruler;
+marry_ruler_desc;Spawn a randomly generated character of the opposite sex that will be married to your player.;
+
+marriage_tooltip;A character of the opposite sex with random traits will be created and married to [Root.GetFirstName].;
+
+marry_courtiers;----Marry Courtiers;
+marry_courtiers_desc;TEST;
+
+marry_kinsperson;Create spouse for [Root.GetFirstName];
+marry_kinsperson_desc;Spawn a randomly generated character of the opposite sex that will be married to your close relative.;

@@ -1,0 +1,31 @@
+
+decisions = {
+	
+	change_cb_targeting = {
+		only_playable = yes
+	 	is_high_prio = yes
+		ai_check_interval = 12
+
+		potential = {
+			is_ruler = yes
+			ai = no
+		}
+		allow = { 
+			custom_tooltip = {
+				text = "RECENTLY_CHANGED_TARGETING_RULES"	
+				OR = {
+					NOT = { has_character_flag = recently_changed_targeting_rules }
+					had_character_flag = { flag = recently_changed_targeting_rules days = 1 }
+				}
+			}
+		}
+		effect = {
+			character_event = { id = CHEATCB.1 }
+			set_character_flag = recently_changed_targeting_rules
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

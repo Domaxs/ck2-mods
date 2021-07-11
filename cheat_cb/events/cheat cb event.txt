@@ -1,0 +1,39 @@
+namespace = CHEATCB
+
+
+character_event = {
+	id = CHEATCB.1
+	desc = "EVTDESCCHEATCB.1"
+	picture = GFX_evt_battle
+	border = GFX_event_normal_frame_martial 
+	
+	is_triggered_only = yes
+	only_playable = yes
+		
+	option = {
+		name = EVTOPTCHEATCB_2
+		clr_character_flag = cheat_cb_emperor
+		clr_character_flag = cheat_cb_king
+		set_character_flag = cheat_cb_duke
+   	}	
+	option = {
+		name = EVTOPTCHEATCB_3
+		clr_character_flag = cheat_cb_duke
+		clr_character_flag = cheat_cb_emperor
+		set_character_flag = cheat_cb_king
+	}
+   	
+	option = {
+		name = EVTOPTCHEATCB_4
+		clr_character_flag = cheat_cb_duke
+		clr_character_flag = cheat_cb_king
+		set_character_flag = cheat_cb_emperor
+	}		
+	 option = {
+        name = EVTOPTCHEATCB_5
+		clr_character_flag = cheat_cb_duke
+		clr_character_flag = cheat_cb_emperor
+		clr_character_flag = cheat_cb_king
+	}
+
+  }
