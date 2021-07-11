@@ -1,6 +1,6 @@
 
 -	PERSONAL STUFF BLAH BLAH BLAH
-	These are all my mods for Crusader Kings 2. I moved off of Steam Workshop because a horrendous error not on my end caused me to lose entitlements of my own mods, preventing updates. I'm no stranger to Github, I'm a coder for T4N Restored. Using GitHub will alow other code savy people to expand upon my mods, which is ideal.
+	These are all my mods for Crusader Kings 2. I moved off of Steam Workshop because a horrendous error not on my end caused me to lose entitlements of my own mods, preventing updates. I'm no stranger to Github, I'm a coder for T4N Restored. Using GitHub will alow other code savy people to expand upon my mods, which is always a good thing, right?
 	
 	
 -	INSTALLATION
