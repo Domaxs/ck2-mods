@@ -1,0 +1,63 @@
+title_decisions = {
+	instant_convert_R_province = {
+		only_playable = yes
+		ai = no
+		filter = owned
+		ai_target_filter = owned
+		
+		from_potential = {
+			is_ruler = yes
+		}
+		
+		potential = {
+			tier = COUNT
+			location = { NOT = { religion = FROM } }
+			holder_scope = {
+				OR = {
+					is_liege_or_above = FROM
+					character = FROM
+				}
+			}
+		}
+	
+		
+		allow = {
+			location = { NOT = { religion = FROM } }
+		}
+		
+		effect = {
+			location = {
+				religion = FROM
+			}
+		}	
+	}
+	instant_convert_C_province = {
+		only_playable = yes
+		ai = no
+		filter = owned
+		ai_target_filter = owned
+		
+		from_potential = {
+			is_ruler = yes
+		}
+		potential = {
+			tier = COUNT
+			location = { NOT = {culture = FROM } }
+			holder_scope = {
+				OR = {
+					is_liege_or_above = FROM
+					character = FROM
+				}
+			}
+		}
+		allow = {
+			location = { NOT = { culture = FROM } }
+		}
+		effect = {
+				location = {
+					culture = FROM
+			}
+		}	
+	}
+}
+		
