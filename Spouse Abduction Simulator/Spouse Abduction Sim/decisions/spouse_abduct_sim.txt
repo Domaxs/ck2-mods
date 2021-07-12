@@ -430,7 +430,7 @@ targeted_decisions = {
 			FROM = {
 				is_liege_or_above_of = ROOT
 				is_close_relative = ROOT
-				can_marry = yes
+				#can_marry = yes
 			}
 			OR = {
 				AND = {
